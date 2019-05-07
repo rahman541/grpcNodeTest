@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node index.js",
+    "note-lists": "node get_notes.js",
+    "note-insert": "node insert_note.js",
+    "note-delete": "node delete_note.js"
   },
   "keywords": [],
   "author": "",
